@@ -42,7 +42,7 @@ Config = {
     }
 }
 ```
-`RoutingBucket` can be any digit from 0 to 64. 0 is the default routing bucket, meaning it's essentially the default route for FiveM.
+`RoutingBucket` can be any digit from 0 to 63. 0 is the default routing bucket, meaning it's essentially the default route for FiveM.
 
 `Spawnpoint` is the coordinates of where the player should be teleported upon respawn and joining the world. Format: { `x`, `y`, `z` }
 
