@@ -19,5 +19,5 @@ RegisterCommand("world", function(source, args, rawCommand)
         -- Invalid amount of arguments
         return;
     end
-    TriggerEvent('Multiverse:ChangeWorld', args[1]);
+    TriggerServerEvent('Multiverse:ChangeWorld', args[1]);
 end)
